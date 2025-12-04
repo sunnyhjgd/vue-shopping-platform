@@ -1,0 +1,9 @@
+/* Placeholder iconfont stylesheet to satisfy reset.css import */
+/* Add your real icon font definitions here if needed. */
+
+.iconfont {
+  font-family: "iconfont", Arial, sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
