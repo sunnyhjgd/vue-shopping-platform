@@ -6,14 +6,7 @@ module.exports = defineConfig({
   productionSourceMap: false,
   transpileDependencies: true,
   lintOnSave: false,
-  // 配置externals选项，将第三方库通过CDN引入，减少bundle大小，提高加载速度
-  configureWebpack: {
-    externals: {
-      vue: 'Vue',
-      'vue-router': 'VueRouter',
-      axios: 'axios'
-    }
-  },
+
   devServer: {
     proxy: {
       '/api': {
