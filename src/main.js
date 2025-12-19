@@ -23,11 +23,12 @@ Vue.component(Carousel.name, Carousel)
 import Pagination from './components/Pagination/index.vue'
 Vue.component(Pagination.name, Pagination)
 
-// Element UI 按需引入
-import { MessageBox } from 'element-ui';
+// Element UI 全局引入
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 
-// 挂载到原型上
-Vue.prototype.$confirm = MessageBox.confirm;
+// 全局使用Element UI
+Vue.use(ElementUI);
 
 // 图片懒加载配置
 import VueLazyload from 'vue-lazyload'
