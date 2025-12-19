@@ -5,7 +5,7 @@ import store from './store'
 import mockServer from './mock/mockServer'
 // 导入Swiper及其CSS
 import Swiper from 'swiper'
-import 'swiper/css/swiper.css'
+import 'swiper/css/swiper.min.css'
 // 将Swiper挂载到Vue原型上，使其在所有组件中可用
 Vue.prototype.$swiper = Swiper
 

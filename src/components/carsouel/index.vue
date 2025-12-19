@@ -3,7 +3,7 @@
   <div class="swiper-container" ref="cur">
     <div class="swiper-wrapper">
       <div class="swiper-slide" v-for="item in list" :key="item.id">
-        <img v-lazy="item.imgUrl" />
+        <img :src="item.imgUrl" />
       </div>
     </div>
     <!-- 如果需要分页器 -->
@@ -46,3 +46,15 @@ export default {
   }
 }
 </script>
+<style scoped>
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+</style>
