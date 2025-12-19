@@ -1,0 +1,570 @@
+[
+  {
+    "id": 1,
+    "name": "手机",
+    "childCategory": [
+      {
+        "id": 11,
+        "name": "智能手机",
+        "childCategory": [
+          {
+            "id": 111,
+            "name": "苹果"
+          },
+          {
+            "id": 112,
+            "name": "华为"
+          },
+          {
+            "id": 113,
+            "name": "小米"
+          },
+          {
+            "id": 114,
+            "name": "OPPO"
+          },
+          {
+            "id": 115,
+            "name": "vivo"
+          },
+          {
+            "id": 116,
+            "name": "三星"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "老人手机",
+        "childCategory": [
+          {
+            "id": 121,
+            "name": "大字手机"
+          },
+          {
+            "id": 122,
+            "name": "超长待机"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "电脑",
+    "childCategory": [
+      {
+        "id": 21,
+        "name": "笔记本电脑",
+        "childCategory": [
+          {
+            "id": 211,
+            "name": "游戏本"
+          },
+          {
+            "id": 212,
+            "name": "轻薄本"
+          },
+          {
+            "id": 213,
+            "name": "商务本"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "台式电脑",
+        "childCategory": [
+          {
+            "id": 221,
+            "name": "品牌台式机"
+          },
+          {
+            "id": 222,
+            "name": "组装电脑"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "家电",
+    "childCategory": [
+      {
+        "id": 31,
+        "name": "电视",
+        "childCategory": [
+          {
+            "id": 311,
+            "name": "4K超清"
+          },
+          {
+            "id": 312,
+            "name": "智能电视"
+          },
+          {
+            "id": 313,
+            "name": "曲面电视"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "空调",
+        "childCategory": [
+          {
+            "id": 321,
+            "name": "壁挂式"
+          },
+          {
+            "id": 322,
+            "name": "立柜式"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "服装",
+    "childCategory": [
+      {
+        "id": 41,
+        "name": "男装",
+        "childCategory": [
+          {
+            "id": 411,
+            "name": "T恤"
+          },
+          {
+            "id": 412,
+            "name": "衬衫"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "name": "女装",
+        "childCategory": [
+          {
+            "id": 421,
+            "name": "连衣裙"
+          },
+          {
+            "id": 422,
+            "name": "上衣"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "食品",
+    "childCategory": [
+      {
+        "id": 51,
+        "name": "生鲜",
+        "childCategory": [
+          {
+            "id": 511,
+            "name": "水果"
+          },
+          {
+            "id": 512,
+            "name": "蔬菜"
+          }
+        ]
+      },
+      {
+        "id": 52,
+        "name": "零食",
+        "childCategory": [
+          {
+            "id": 521,
+            "name": "饼干"
+          },
+          {
+            "id": 522,
+            "name": "巧克力"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "美妆",
+    "childCategory": [
+      {
+        "id": 61,
+        "name": "护肤品",
+        "childCategory": [
+          {
+            "id": 611,
+            "name": "面霜"
+          },
+          {
+            "id": 612,
+            "name": "爽肤水"
+          }
+        ]
+      },
+      {
+        "id": 62,
+        "name": "彩妆",
+        "childCategory": [
+          {
+            "id": 621,
+            "name": "口红"
+          },
+          {
+            "id": 622,
+            "name": "粉底"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "运动",
+    "childCategory": [
+      {
+        "id": 71,
+        "name": "健身器材",
+        "childCategory": [
+          {
+            "id": 711,
+            "name": "哑铃"
+          },
+          {
+            "id": 712,
+            "name": "跑步机"
+          }
+        ]
+      },
+      {
+        "id": 72,
+        "name": "运动服饰",
+        "childCategory": [
+          {
+            "id": 721,
+            "name": "运动裤"
+          },
+          {
+            "id": 722,
+            "name": "运动鞋"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "图书",
+    "childCategory": [
+      {
+        "id": 81,
+        "name": "文学小说",
+        "childCategory": [
+          {
+            "id": 811,
+            "name": "当代文学"
+          },
+          {
+            "id": 812,
+            "name": "外国文学"
+          }
+        ]
+      },
+      {
+        "id": 82,
+        "name": "生活百科",
+        "childCategory": [
+          {
+            "id": 821,
+            "name": "美食"
+          },
+          {
+            "id": 822,
+            "name": "旅行"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "母婴",
+    "childCategory": [
+      {
+        "id": 91,
+        "name": "奶粉辅食",
+        "childCategory": [
+          {
+            "id": 911,
+            "name": "婴儿奶粉"
+          },
+          {
+            "id": 912,
+            "name": "辅食"
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "name": "童装童鞋",
+        "childCategory": [
+          {
+            "id": 921,
+            "name": "婴儿装"
+          },
+          {
+            "id": 922,
+            "name": "童鞋"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "家居",
+    "childCategory": [
+      {
+        "id": 101,
+        "name": "家具",
+        "childCategory": [
+          {
+            "id": 1011,
+            "name": "沙发"
+          },
+          {
+            "id": 1012,
+            "name": "床"
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "家纺",
+        "childCategory": [
+          {
+            "id": 1021,
+            "name": "床上用品"
+          },
+          {
+            "id": 1022,
+            "name": "窗帘"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "汽车",
+    "childCategory": [
+      {
+        "id": 111,
+        "name": "汽车用品",
+        "childCategory": [
+          {
+            "id": 1111,
+            "name": "坐垫"
+          },
+          {
+            "id": 1112,
+            "name": "导航仪"
+          }
+        ]
+      },
+      {
+        "id": 112,
+        "name": "配件",
+        "childCategory": [
+          {
+            "id": 1121,
+            "name": "轮胎"
+          },
+          {
+            "id": 1122,
+            "name": "机油"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "数码",
+    "childCategory": [
+      {
+        "id": 121,
+        "name": "相机",
+        "childCategory": [
+          {
+            "id": 1211,
+            "name": "单反相机"
+          },
+          {
+            "id": 1212,
+            "name": "微单相机"
+          }
+        ]
+      },
+      {
+        "id": 122,
+        "name": "耳机",
+        "childCategory": [
+          {
+            "id": 1221,
+            "name": "蓝牙耳机"
+          },
+          {
+            "id": 1222,
+            "name": "有线耳机"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "箱包",
+    "childCategory": [
+      {
+        "id": 131,
+        "name": "女包",
+        "childCategory": [
+          {
+            "id": 1311,
+            "name": "手提包"
+          },
+          {
+            "id": 1312,
+            "name": "背包"
+          }
+        ]
+      },
+      {
+        "id": 132,
+        "name": "男包",
+        "childCategory": [
+          {
+            "id": 1321,
+            "name": "公文包"
+          },
+          {
+            "id": 1322,
+            "name": "钱包"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "珠宝",
+    "childCategory": [
+      {
+        "id": 141,
+        "name": "黄金",
+        "childCategory": [
+          {
+            "id": 1411,
+            "name": "项链"
+          },
+          {
+            "id": 1412,
+            "name": "戒指"
+          }
+        ]
+      },
+      {
+        "id": 142,
+        "name": "钻石",
+        "childCategory": [
+          {
+            "id": 1421,
+            "name": "钻戒"
+          },
+          {
+            "id": 1422,
+            "name": "耳环"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "玩具",
+    "childCategory": [
+      {
+        "id": 151,
+        "name": "益智玩具",
+        "childCategory": [
+          {
+            "id": 1511,
+            "name": "积木"
+          },
+          {
+            "id": 1512,
+            "name": "拼图"
+          }
+        ]
+      },
+      {
+        "id": 152,
+        "name": "遥控玩具",
+        "childCategory": [
+          {
+            "id": 1521,
+            "name": "遥控车"
+          },
+          {
+            "id": 1522,
+            "name": "无人机"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "乐器",
+    "childCategory": [
+      {
+        "id": 161,
+        "name": "键盘乐器",
+        "childCategory": [
+          {
+            "id": 1611,
+            "name": "钢琴"
+          },
+          {
+            "id": 1612,
+            "name": "电子琴"
+          }
+        ]
+      },
+      {
+        "id": 162,
+        "name": "弦乐器",
+        "childCategory": [
+          {
+            "id": 1621,
+            "name": "吉他"
+          },
+          {
+            "id": 1622,
+            "name": "小提琴"
+          }
+        ]
+      }
+    ]
+  }
+]
